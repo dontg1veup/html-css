@@ -1,0 +1,36 @@
+body { 
+    background-color: blue;
+}
+
+p {
+    width: 300px;
+    margin: 0px;
+}
+
+#container {
+
+    width: 800px;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    
+}
+
+.fixed {
+    position:fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.absolute {
+    position: absolute;
+    left: 350px;
+    top: 0px;
+}
+
+.relative {
+
+    position: relative;
+    left: 350px;
+    top: -105px;
+}

@@ -1,0 +1,21 @@
+.padding {
+  background: red;     /* cor do "padding" */
+  padding: 20px;
+  height: 300px;
+}
+
+.conteudo {
+  background: rgb(35, 0, 233);  /* cor do conteúdo */
+  padding: 50px;
+}
+
+#cara:hover {
+  
+  background-color: yellow;
+}
+
+div:hover > p {
+
+  background-color: white;
+
+}

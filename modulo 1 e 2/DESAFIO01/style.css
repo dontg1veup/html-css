@@ -1,0 +1,195 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+}
+
+body { 
+
+    background-color: #D8D6B3;
+    p {
+        padding: 10px;
+    }
+
+}
+
+
+
+@font-face {
+    font-family:android;
+    src: url(fontes/idroid.otf);
+}
+
+/* configuracoes gerais/body */
+
+ header {
+    background: linear-gradient(to bottom, #2F8F55 0%, #1C6B3F 50%, #0A3B2C 100%);
+    
+     padding: 40px 0 20px 0;
+       box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+ }
+
+ header h1 {
+    font-family: 'bebas neue', sans-serif;
+    font-size: 2.3em;
+ }
+
+ header p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    
+ }
+
+ /* Configuracoes Cabecalho */
+
+nav {
+    
+    margin-top: 70px;
+    margin-left: 10px;
+    
+}
+
+nav a {   
+        color: #a3caa0;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition-duration: 0.5s;
+}
+
+nav a:hover {
+
+    background-color:#388f5a;
+    color: #0A3B2C;
+}
+
+/* Configuracoes Navbar do Cabecalho */
+
+main {
+
+   
+   max-width: 800px;
+   min-width: 400px;
+   background-color: white;
+   margin: auto;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+   padding: 10px;
+   text-align: justify;
+   
+
+}
+
+main a {
+    background-color: #85d6aa;
+    text-decoration: none;
+    color: black ;
+    padding: 3px;
+}
+
+main a::after {
+
+content:"🔗" ;
+
+}
+
+
+
+main h3,h2 {
+
+    font-family: android,cursive;
+    padding: 5px;
+    margin: 10px 0px;
+
+}
+main h2 {
+
+    color: #0A3B2C;
+
+}
+
+main h3 {
+
+    color: #1C6B3F;
+    background: linear-gradient(to right,  #85d6aa, #e0f4e6, white);
+
+}
+
+
+
+main p {
+    margin: 15px 0;
+    line-height: 1.6;
+    font-size: 1em;
+}
+
+
+/* Configuracoes do Main */
+
+picture img {
+    
+    width: 100%;
+}
+
+aside {
+    
+    background-color: #85d6aa;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    margin-top: 10px;
+    text-indent: 30px;
+    line-height: 2.0em;
+    
+}
+aside h3 {
+    background: #2F8F55;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+
+    
+}
+
+ul {
+    list-style-type: circle;
+    columns: 2;
+    list-style-position: inside;
+}
+
+/* Configuracoes Aside */
+
+
+
+footer {
+    background-color: #0A3B2C;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+/* configuracoes footer */
+ #cabecalho {
+    text-align: center;
+    color: white;
+ }
+ 
+
+
+
+
+ /* IDs*/
+
+
+ .central {
+    margin: auto;
+    display: block;
+ }
+
+ .video {
+    width: 100%;
+    
+ }
+ /* Classes */
+ 

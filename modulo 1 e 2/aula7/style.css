@@ -1,0 +1,17 @@
+
+div:hover {
+    color: red;
+} 
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+
+    display: block;
+    background-color: darkred;
+    color: WHITE;
+    width: 200PX;
+    
+}

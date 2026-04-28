@@ -1,0 +1,39 @@
+body {
+    background-color: #f4f4f4c4;
+    
+    
+}
+
+.noticias {
+    background-color: #cecece;
+    width: 280px;
+    float: left;
+    padding: 5px;
+    margin: 7px;
+    color: black;
+}
+
+#principal {
+    width: 920px;
+    
+  
+}
+
+
+
+.imagens {
+    background-color: white;
+    width: 265px;
+    padding: 5px;
+    margin: 15px;
+    float: left;
+    
+    
+
+    
+
+}
+
+.clear {
+    clear: both;
+}
