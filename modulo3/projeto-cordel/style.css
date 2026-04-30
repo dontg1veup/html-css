@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    line-height: 1.6;
+    font-family: "Sriracha"
+}
+
+header  h1 {
+    font-family: "passion one",sans-serif;
+    font-size: clamp(3rem, 12vw, 10rem);
+    font-weight: 600;
+}
+
+main p {
+    font-size: clamp(2.5rem, 3.5vw, 4rem);
+    line-height: 1.65;
+    font-weight: 100;
+}
+
+header {
+background-color: black;
+color: white;
+text-align: center;
+
+
+}
+
+
+
+#paralaxxb1 {
+
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-position: left center;
+
+
+}
+
+
+section {
+    padding: 94.5px 0px 94.5px 30px;
+}
+
+.normal p {
+
+padding-bottom: 106px;
+
+}
+
+.imagem {
+    color: white;
+}
+
+.imagem p {
+
+    width: 700px;
+    background-color: rgba(226, 226, 226, 0.267);
+    padding: 5px;
+    
+}
+
+
+/* classes */
