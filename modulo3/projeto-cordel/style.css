@@ -59,7 +59,10 @@ section {
     padding: 94.5px 0px 94.5px 30px;
 }
 
+section p {
 
+    padding-bottom: 106px;
+}
 
 /* section */
 
@@ -87,7 +90,7 @@ footer p {
 
     background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
-    background-position: left center;
+    background-position: center center;
 
 
 
@@ -96,6 +99,7 @@ footer p {
 #paralaxxb2 {
     background-image: url(imagens/background002.jpg);
     background-attachment: fixed;
+    background-size: cover;
     background-position: left center;
 }
 
@@ -104,25 +108,21 @@ footer p {
 /* ids */
 
 
-.normal p {
 
-padding-bottom: 106px;
-
-}
 
 .imagem {
     color: white;
 }
 
-.imagem p {
 
-    max-width: 600px;
-    min-width: 400px;
+
+
+.imagem p {
+    display: inline-block;
+    max-width: 700px;
     background-color: rgba(226, 226, 226, 0.267);
     padding: 5px;
-    
 }
-
 
 
 /* classes */
