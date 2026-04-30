@@ -8,26 +8,79 @@ body {
     font-family: "Sriracha"
 }
 
-header  h1 {
-    font-family: "passion one",sans-serif;
-    font-size: clamp(3rem, 12vw, 10rem);
-    font-weight: 600;
+a {
+    text-decoration: none;
+    color: white;
 }
 
-main p {
-    font-size: clamp(2.5rem, 3.5vw, 4rem);
-    line-height: 1.65;
-    font-weight: 100;
+a:hover {
+    text-decoration: underline;
 }
+
+/* configs gerais */
 
 header {
 background-color: black;
 color: white;
 text-align: center;
 
+}
+
+header  h1 {
+    font-family: "passion one",sans-serif;
+    font-size: clamp(3rem, 12vw, 10rem);
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+header > p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+
+
+
+/* cabecalho */
+
+main p {
+    font-size: clamp(1.5rem, 3.5vw, 4rem);
+    line-height: 1.65;
+    font-weight: 100;
+}
+
+/* main */
+
+section {
+    padding: 94.5px 0px 94.5px 30px;
+}
+
+
+
+/* section */
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+footer p {
+
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
+/* rodape  */
 
 
 #paralaxxb1 {
@@ -37,12 +90,19 @@ text-align: center;
     background-position: left center;
 
 
+
+}
+
+#paralaxxb2 {
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-position: left center;
 }
 
 
-section {
-    padding: 94.5px 0px 94.5px 30px;
-}
+
+/* ids */
+
 
 .normal p {
 
@@ -56,11 +116,13 @@ padding-bottom: 106px;
 
 .imagem p {
 
-    width: 700px;
+    max-width: 600px;
+    min-width: 400px;
     background-color: rgba(226, 226, 226, 0.267);
     padding: 5px;
     
 }
+
 
 
 /* classes */
