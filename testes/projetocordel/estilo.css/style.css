@@ -57,6 +57,10 @@ section {
     line-height: 2em;
 }
 
+section p {
+    padding-bottom: 2em;
+}
+
 footer{
 
     text-align: center;
@@ -96,4 +100,5 @@ background-color: aquamarine;
 background-image: url(../imagens/background002.jpg);
 background-size: cover;
 background-attachment: fixed;
+background-position: center center;
 }
