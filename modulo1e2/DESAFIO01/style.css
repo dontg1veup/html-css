@@ -16,6 +16,7 @@ body {
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 @font-face {
@@ -97,7 +98,7 @@ content:"🔗" ;
 
 
 
-main h3,h2 {
+main h3, main h2 {
 
     font-family: android,cursive;
     padding: 5px;
@@ -139,8 +140,10 @@ aside {
     border-radius: 8px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     margin-top: 10px;
-    text-indent: 30px;
+    text-indent: 1px;
     line-height: 2.0em;
+    padding-bottom: 10px;
+    
     
 }
 aside h3 {
@@ -156,8 +159,12 @@ ul {
     list-style-type: circle;
     columns: 2;
     list-style-position: inside;
+    gap: 20px;
 }
 
+ul, li {
+     break-inside: avoid;
+}
 /* Configuracoes Aside */
 
 
