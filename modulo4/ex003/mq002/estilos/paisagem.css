@@ -1,1 +1,8 @@
 /* Configuracoes em Landscape (aparelho deitado) */
+
+html, body {
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    
+}
