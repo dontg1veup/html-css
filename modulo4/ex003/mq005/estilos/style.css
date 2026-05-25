@@ -13,9 +13,10 @@ padding: 10px;
 color: white;
 text-decoration: none;
 background-color: rgb(105, 105, 105);
-display: inline-block;
-margin-right: 2px;
 box-shadow: 1px 0px rgba(0, 0, 0, 0.315);
+display: block;
+text-align: center;
+border-top: 2px solid rgb(255, 255, 255);
 }
 
 a:hover {
@@ -33,10 +34,23 @@ header {
 
 header h1 {
     text-align: center;
+    padding: 10px;
+}
+span#burguer {
+    display: block;
+    text-align: center;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    padding: 10px;
+}
+
+span#burguer:hover {
+    background-color: black;
+    cursor: pointer;
 }
 
 nav {
-    margin-top: 30px;
+    display: none;
 }
 
 main {
@@ -48,9 +62,7 @@ main {
     border-radius: 8px;
 }
 
-main h1 {
-    margin-bottom: 15px;
-}
+
 
 main p {
     line-height: 1.5em;
