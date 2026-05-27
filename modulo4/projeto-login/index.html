@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,15 +23,15 @@
             <form action="login.php" method="post" autocomplete="on">
             
                 <div class="campo">  
-                    <span class="material-symbols-outlined">login</span>                
+                    <label for="ilogin"><span class="material-symbols-outlined">login</span></label>                
                     <input type="email" name="login" id="ilogin" placeholder="Digite seu e-mail" autocomplete="email" required maxlength="30">
-                    <label for="ilogin">Email</label>
+                    
                 </div>
 
-                <div>
-                    <span class="material-symbols-outlined">key</span>
+                <div class="campo">
+                    <label for="isenha"><span class="material-symbols-outlined">key</span></label>
                     <input type="password" name="" id="isenha" placeholder="Digite sua Senha" autocomplete="current-password" required minlength="8">
-                    <label for="isenha">Senha</label>
+                    
                 </div>
 
                 <input type="submit" value="Entrar">
