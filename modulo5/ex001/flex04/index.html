@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex03</title>
+    <STYLE>
+
+        *{
+            box-sizing: border-box;
+        }
+        
+        div.conteiner {
+            background-color: black;
+            display: flex; 
+            flex-flow: column nowrap;
+            justify-content: center ;
+            align-items: stretch;
+            height: 800px;
+
+        }
+        div.item {
+
+             padding: 15px;
+            background-color: lightgray;
+            flex-grow: 1;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            
+
+        }
+    </STYLE>
+</head>
+<body>
+    <div class="conteiner">
+
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+
+    </div>
+</body>
+</html>
