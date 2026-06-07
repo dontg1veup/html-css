@@ -1,0 +1,65 @@
+/* Configuracoes Gerais */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a { 
+    text-decoration:none;
+    padding: 11px;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+
+}
+a:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.3s;
+}
+
+/* ------------------------------- */
+
+/* ids e classes */
+nav#menuprincipal {
+    padding: 8px;
+}
+
+/* ---------------- */
+
+
+
+body { 
+    background-color: rgb(230, 230, 230);
+
+}
+
+header { 
+    background-color: rgb(160, 160, 160);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 1px 2px;
+    margin-bottom: 15px;
+}
+
+header h1 { 
+    color: white;
+    padding: 5px;
+    text-shadow: 1px 2px 2px black;
+    flex: 1 1 200px;
+    
+}
+
+main section {
+    background-color: white;
+    width: 98vw ;
+    margin: auto;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 1px 1px 2px;
+}
