@@ -7,20 +7,20 @@
     <style>
         div.container { 
             border: 3px solid red;
-            height: 250px;
+            height: 500px;
             display: grid;
-            grid-template: auto auto auto / auto auto auto;
+            grid-template: repeat(3, 100px) / 100px 100px 100px;
             gap: 10px;
-           align-items: normal;
-           align-content: normal;
-           justify-content: normal;
-           justify-items: normal;
+           place-items: end start;
+           place-content: start end;
+           
+           
             
             
         }
         div.item {
             border: 3px solid blue;
-            padding: 5px;
+            
         }
     </style>
 </head>
@@ -35,6 +35,7 @@
     <div class="item">c</div>
     <div class="item">a</div>
     <div class="item">b</div>
+    
     
     
     
